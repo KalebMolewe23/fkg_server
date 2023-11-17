@@ -9,10 +9,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
-                        <a href="<?= base_url('/') ?>" class="nav-item nav-link active">Home</a>
-                        <a href="<?= base_url('home/about') ?>" class="nav-item nav-link">About</a>
-                        <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Service</a>
-                        <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Project</a>
+                        <a href="<?= base_url('/') ?>" class="nav-item nav-link active">Homes</a>
+                        <a href="<?= base_url('home/about') ?>" class="nav-item nav-link">Abouts</a>
+                        <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Services</a>
+                        <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Projects</a>
                     </div>
                     <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Registrasi Now</a>
                 </div>
