@@ -1,291 +1,187 @@
-<!-- Navbar & Hero Start -->
-<div class="container-xxl position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <img src="<?= base_url('assets/logo/eresta_dev.png') ?>" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="<?= base_url('/') ?>" class="nav-item nav-link active">Homes</a>
-                        <a href="<?= base_url('home/about') ?>" class="nav-item nav-link">Abouts</a>
-                        <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Services</a>
-                        <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Projects</a>
-                    </div>
-                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Registrasi Now</a>
-                </div>
-            </nav>
+<div class="box1">
+    <center><h3>Jasa Pengembangan Maupun Pembuatan Website & Android</h3><center>
+    <p class="text-white pb-3 animated slideInDown">Perkenalkan, Kami Tim Eresta Developer Menawarkan Kalian Untuk Jasa Dalam Pembuatan, Pengembangan, Dan Custome Website Maupun Android.</p>
+    <p class="text-white pb-3 animated slideInDown">Sesuai Dengan Kebutuhan Anda.</p>
+    <br><br>
+    <a href="#prices"><button class="button_prices"><i class='bx bx-money'></i> Cek Prices</button></a>
+</div>
 
-            <div class="container-xxl bg-primary hero-header">
-                <div class="container px-lg-5">
-                    <div class="row g-5 align-items-end">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">Jasa Pengembangan Maupun Pembuatan Website & Android</h1>
-                            <p class="text-white pb-3 animated slideInDown">Perkenalkan, Kami Tim Eresta Developer Menawarkan Kalian Untuk Jasa Dalam Pembuatan, Pengembangan, Dan Custome Website Maupun Android, Sesuai Dengan Kebutuhan Anda</p>
-                            <a href="<?= base_url('home/about') ?>" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Selengkapnya <span class="fa fa-arrow-right"></span></a>
-                            <a href="https://wa.me/62895337261274?text=Halo%20Ada yang bisa kami bantu?%20Silahkan hubungi dinomor ini untuk informasi lebih lanjut.%20" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Hubungi Kami <span class="fa fa-phone"></span></a>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn" src="<?= base_url('assets/logo/new_phone.png') ?>" alt="">
-                        </div>
-                    </div>
+<section class="home container">
+    <center><h3 class="h3_size">Our Services</h3></center><br>
+    <div class="row_service">
+        <div class="column_service">
+            <div class="card_service">
+                <h4>Full Design & Development</h4>
+                <p>Kami siap membantu kalian dalam membuat tampilan website/android menjadi lebih menarik.</p>
+            </div>
+        </div>
+        <div class="column_service">
+            <div class="card_service">
+                <h4>Full Support</h4>
+                <p>Kami siap membantu untuk pembuatan sistem kalian dari 0 sampai selesai.</p>
+            </div>
+        </div>
+        <div class="column_service">
+            <div class="card_service">
+                <h4>Full Security</h4>
+                <p>Setiap web client kami akan meningkatkan keamanan website agar tidak mudah di HACKER ataupun terkena malware.</p>
+            </div>
+        </div>
+    </div>
+</section> 
+<br>
+
+<div class="box2">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<section class="home container">
+    <div class="paket" id="prices">
+        <center><h3 class="h3_size_price">Paket Pembuatan Website</h3></center>
+        <center><p class="p_size_price">Pilih Paket Sesuai Dengan Kebutuhan Sistem Anda</p></center><br><br>
+        <div class="row_paket">
+            <div class="column_paket">
+                <div class="card_paket">
+                    <h4 class="h4_size">Paket Eresta Child</h4>
+                    <p class="p_des">Kategori(Mahasiswa & Company Profile)</p>
+                    <h4 class="h4_price">Range Harga (2 juta - 4 juta)</h4><br>
+                    <h6><i class='bx bxs-crown' ></i> Garansi /Full Support Selamanya</h6>
+                    <h6><i class='bx bx-check' ></i> Bonus Logo Dan 3 Banner</h6>
+                    <h6><i class='bx bx-check' ></i> Free Domain Dan Hosting</h6>
+                    <h6><i class='bx bx-check' ></i> Free Ebook Cara Penggunaan</h6>
+                    <h6><i class='bx bx-check' ></i> Free Revisi Tampilan 2x</h6>
+                    <h6><i class='bx bx-check' ></i> Source Code Full Milik Owner</h6>
+                    <h6><i class='bx bx-x'></i> Pemasangan ke PS/AS</h6>
+                    <!-- <h6><i class='bx bx-check' ></i> Konsultasi Setiap Hari</h6>
+                    <h6><i class='bx bx-x'></i> Free Email Bisnis</h6>-->
+                    <p class="p_price">Penambahan Fitur Diluar Kesepakatan : 100ribu/fitur</p>
+                    <button><i class='bx bx-cart-add'></i> Order Now</button>
+                    <h5 class="des_paket">Perpanjangan 500ribu /tahun</h5>
+                </div>
+            </div>
+            <div class="column_paket">
+                <div class="card_paket">
+                    <h4 class="h4_size">Paket Eresta Adult</h4>
+                    <p class="p_des">Kategori(Toko Online, Top Up Game & Multitasking Lainnya)</p>
+                    <h4 class="h4_price">Range Harga (5 juta - 9 juta)</h4><br>
+                    <h6><i class='bx bxs-crown' ></i> Garansi /Full Support Selamanya</h6>
+                    <h6><i class='bx bx-check' ></i> Bonus Logo Dan Banner</h6>
+                    <h6><i class='bx bx-check' ></i> Free Domain Dan Hosting</h6>
+                    <!-- <h6><i class='bx bx-check' ></i> Konsultasi Setiap Hari</h6>
+                    <h6><i class='bx bx-check' ></i> Free Revisi Tampilan 2x</h6>
+                    <h6><i class='bx bx-check' ></i> Free Ebook Cara Penggunaan</h6>
+                    <h6><i class='bx bx-check' ></i> Maksimal Pengerjaan 1 Bulan</h6> -->
+                    <p class="p_price">Penambahan Fitur Diluar Kesepakatan : 100ribu/fitur</p>
+                    <button><i class='bx bx-cart-add'></i> Order Now</button>
+                    <h5 class="des_paket">Perpanjangan 500ribu /tahun</h5>
+                </div>
+            </div>
+            <div class="column_paket">
+                <div class="card_paket">
+                    <h4 class="h4_size">Paket Eresta Parent</h4>
+                    <p class="p_des">Kategori(PT atau CV)</p>
+                    <h4 class="h4_price">Range Harga (10 juta - 50 juta)</h4><br>
+                    <h6><i class='bx bxs-crown' ></i> Garansi /Full Support Selamanya</h6>
+                    <!-- <h6><i class='bx bx-check' ></i> Bonus Logo Dan Banner</h6>
+                    <h6><i class='bx bx-check' ></i> Free Domain Dan Hosting</h6>
+                    <h6><i class='bx bx-check' ></i> Konsultasi Setiap Hari</h6>
+                    <h6><i class='bx bx-check' ></i> Free Revisi Tampilan 2x</h6>
+                    <h6><i class='bx bx-check' ></i> Free Ebook Cara Penggunaan</h6>
+                    <h6><i class='bx bx-check' ></i> Maksimal Pengerjaan 1 Bulan</h6> -->
+                    <p class="p_price">Penambahan Fitur Diluar Kesepakatan : 100ribu/fitur</p>
+                    <button><i class='bx bx-cart-add'></i> Order Now</button>
+                    <h5 class="des_paket">Perpanjangan 500ribu /tahun</h5>
                 </div>
             </div>
         </div>
-        <!-- Navbar & Hero End -->
+    </div>
+</section>
 
-<!-- Feature Start -->
-<div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
-                            <h5 class="mb-3">Customer Care</h5>
-                            <p class="m-0">Kami siap membantu agar sesuai dengan ekspetasi anda, dalam membangun Website atau Android.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-search text-primary mb-4"></i>
-                            <h5 class="mb-3">SEO & Backlinks</h5>
-                            <p class="m-0">Tampilan menarik dan lebih responsive. Penempatan Link Sesuai Dengan Yang Anda Inginkan.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
-                            <h5 class="mb-3">Full Design & Development</h5>
-                            <p class="m-0">Sampaikan ide kalian untuk kebutuhan Website Atau Android Yang Anda Inginkan. Kami Siap Membantu.</p>
-                        </div>
-                    </div>
+<section class="home container">
+    <div class="projek" id="project">
+        <center><h3 class="h3_size">Our Projects</h3></center>
+        <center><p class="p_size">Berikut Adalah Projek Yang Sudah Kami Buat Dan Kami Jual.</p></center><br><br><br>
+    </div>
+    <div class="projek_link">
+        <a href="">Semua</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Website</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Aplikasi</a>
+    </div>
+</section>
+ <!-- <button class="projek_link"><a href="">All</a>
+ <button class="projek_link"><a href="">Website</a>
+ <button class="projek_link"><a href="">Application</a> -->
+<section class="home container">
+        <div class="row_p2" id="all">
+            <div class="column_p2">
+                <div class="card_p2">
+                    <button type="submit" class="button_link"><i class='bx bx-link-alt'></i> Link Demo</button><br>
+                    <h3 class="h3_title">Algoritma K-Means + WebGis</h3>
+                    <h5 class="h5_price">Rp. 1.000.000</h5><br>
+                    <p class="p_projek"><i class='bx bx-check' ></i>Source Code</p>
+                    <p class="p_projek"><i class='bx bx-check' ></i>Penambahan Fitur : 100ribu/fitur</p>
+                    <p class="p_projek"><i class='bx bx-check' ></i>Full Custome</p>
+                    <p class="p_projek"><i class='bx bx-x'></i>Hosting + Domain</p>
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
                 </div>
             </div>
         </div>
-        <!-- Feature End -->
+        <div class="row_p2" id="website">
 
-        <!-- Facts Start -->
-        <div class="container-xxl bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                        <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">2</h1>
-                        <p class="text-white mb-0">Years Experience</p>
-                    </div>
-                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                        <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">1</h1>
-                        <p class="text-white mb-0">Team ErestaDev</p>
-                    </div>
-                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                        <i class="fa fa-users fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">7</h1>
-                        <p class="text-white mb-0">Satisfied Clients</p>
-                    </div>
-                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                        <i class="fa fa-check fa-3x text-secondary mb-3"></i>
-                        <h1 class="text-white mb-2" data-toggle="counter-up">6</h1>
-                        <p class="text-white mb-0">Compleate Projects</p>
-                    </div>
-                </div>
-            </div>
         </div>
-        <!-- Facts End -->
+        <div class="row_p2" id="application">
 
-
-        <!-- Service Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title text-secondary justify-content-center"><span></span>Our Services<span></span></p>
-                    <h1 class="text-center mb-5">Solusi Apa Yang Kami Berikan Kepada Anda</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fa fa-laptop-code fa-2x"></i>
-                            </div>
-                            <h5 class="mb-3">Web Design</h5>
-                            <p class="m-0">Kami akan memberikan tampilan yang menarik dan responsive, bertujuan agar website semakin berkembang dan user friendly.</p>
-                            <a class="btn btn-square" href="<?= base_url('home/about'); ?>"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fa fa-thumbs-up fa-2x"></i>
-                            </div>
-                            <h5 class="mb-3">Full Developer</h5>
-                            <p class="m-0">Kami siap membantu dan bertanggung jawab atas project anda. Mulai dari 0 sampai selesai, sesuai dengan kebutuhan anda.</p>
-                            <a class="btn btn-square" href="<?= base_url('home/about'); ?>"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fab fa-android fa-2x"></i>
-                            </div>
-                            <h5 class="mb-3">App Development</h5>
-                            <p class="m-0">Kami siap melayani pembuatan aplikasi untuk bisnis anda. Agar bisnis anda semakin berkembang. Tentunya 100% Kami siap membantu</p>
-                            <a class="btn btn-square" href="<?= base_url('home/about'); ?>"><i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-        <!-- Service End -->
+</section>
 
-
-        <!-- Newsletter Start -->
-        <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7 text-center">
-                        <p class="section-title text-white justify-content-center"><span></span>Newsletter<span></span></p>
-                        <h1 class="text-center text-white mb-4">Silahkan Klik Dibawah Ini Untuk Menghubungi Kami.</h1>
-                        <a class="section-title text-white justify-content-center" href="https://wa.me/62895337261274"><img src="<?= base_url('assets/logo/wa_1.png'); ?>" width="400px"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Newsletter End -->
-
-
-        <!-- Projects Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title text-secondary justify-content-center"><span></span>Our Projects<span></span></p>
-                    <h1 class="text-center mb-5">Berikut Beberapa Project Yang Kami Jual</h1>
-                </div>
-                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="col-12 text-center">
-                        <ul class="list-inline mb-5" id="portfolio-flters">
-                            <li class="mx-2 active" data-filter="*">All</li>
-                            <li class="mx-2" data-filter=".first">Website</li>
-                            <li class="mx-2" data-filter=".second">Application</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row g-4 portfolio-container">
-                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="<?= base_url('assets/image/example/img/vaksinasi.png') ?>" alt="">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="<?= base_url('assets/image/example/img/vaksinasi.png') ?>" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href="https://youtu.be/UzPXkglehVs?si=Z7i2FfHS1rf-xWB1"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-light p-4">
-                                <p class="text-primary fw-medium mb-2">Algoritma K-Means</p>
-                                <h5 class="lh-base mb-0">Demo Website Perhitungan Algoritma K-Means</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Projects End -->
-
-
-        <!-- Testimonial Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <p class="section-title text-secondary justify-content-center"><span></span>Testimonial<span></span></p>
-                <h1 class="text-center mb-5">What Say Our Clients!</h1>
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="testimonial-item bg-light rounded my-4">
-                        <img src="<?= base_url('assets/customer/img/bonny2.jpg'); ?>">
-                        <div class="d-flex align-items-center">
-                            <div class="ps-4">
-                                <h5 class="mb-1">Bonny - Kmeans(Manokwari)</h5>
-                                <span>Mahasiswa</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-light rounded my-4">
-                        <img src="<?= base_url('assets/customer/img/hidayah2.jpg'); ?>">
-                        <div class="d-flex align-items-center">
-                            <div class="ps-4">
-                                <h5 class="mb-1">Hidayah - Kmeans(Makasar)</h5>
-                                <span>Mahasiswa</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-light rounded my-4">
-                        <img src="<?= base_url('assets/customer/img/lukas2.jpg'); ?>">
-                        <div class="d-flex align-items-center">
-                            <div class="ps-4">
-                                <h5 class="mb-1">Lukas - Kmeans(Papua)</h5>
-                                <span>Bisnis</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-
-
-        <!-- Team Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
-                    <h1 class="text-center mb-5">Our Team Members</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <!-- <div class="team-item bg-light rounded">
-                            <div class="text-center border-bottom p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="<?= base_url('assets/member/kaleb.jpg'); ?>" alt="">
-                                <h5>Kaleb Molewe S.Kom</h5>
-                                <span>CEO & Founder</span>
-                            </div>
-                            <div class="d-flex justify-content-center p-4">
-                                <a class="btn btn-square mx-1" href="https://web.facebook.com/profile.php?id=100085414869298"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href="https://twitter.com/MoleweKaleb"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href="https://www.instagram.com/kalebmolewe/"><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/kaleb-molewe-487a39166/"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item bg-light rounded">
-                            <div class="text-center border-bottom p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="<?= base_url('assets/member/kaleb.jpg'); ?>" alt="">
-                                <h5>Kaleb Molewe S.Kom</h5>
-                                <span>CEO & Founder</span>
-                            </div>
-                            <div class="d-flex justify-content-center p-4">
-                                <a class="btn btn-square mx-1" href="https://web.facebook.com/profile.php?id=100085414869298"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href="https://twitter.com/MoleweKaleb"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href="https://www.instagram.com/kalebmolewe/"><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/kaleb-molewe-487a39166/"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <!-- <div class="team-item bg-light rounded">
-                            <div class="text-center border-bottom p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt="">
-                                <h5>Tony Johnson</h5>
-                                <span>SEO Expert</span>
-                            </div>
-                            <div class="d-flex justify-content-center p-4">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
+<section class="home container">
+    <div class="portofolio" id="portofolio">
+        <center><h3 class="h3_size">Testimonial</h3></center>
+        <center><p class="p_size">Berikut Adalah Testimoni Langsung Dari Client Yang Sudah Bekerja Sama Dengan Kami.</p></center><br><br>
+        <div class="Carousel-slider">
+			<!-- Background Images div -->
+			<div class="slider-item portofolio1" data-href="#" ></div>
+			<div class="slider-item portofolio2" data-href="#" ></div>
+			<div class="slider-item portofolio3" data-href="#" ></div>
+			<!-- <div class="slider-item portofolio4" data-href="#" ></div>
+			<div class="slider-item portofolio5" data-href="#" ></div>
+			<div class="slider-item portofolio6" data-href="#" ></div>
+			<div class="slider-item portofolio7" data-href="#" ></div> -->
+			<!-- Background Images div End -->
+		</div>
+        <!-- <div class="portofolio_des">
+            <img src="<?= base_url('assets/customer/img/bonny2.jpg'); ?>"></img>
+            <h3>Bonny - Monokwari, Papua Barat(Algoritma K-Means + WebGis)</h3>
+        </div> -->
+    </div>
+</section>
