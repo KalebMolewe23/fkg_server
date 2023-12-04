@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eresta Developer</title>
     <link rel="stylesheet" href="<?= base_url('/assets/css/user/style.css') ?>">
     <link rel="icon" type="image/x-icon" href="<?= base_url('/assets/logo/icon.png'); ?>">
@@ -45,8 +45,8 @@
         <a href="/" class="logo"><img src="<?= base_url('/assets/logo/eresta_dev.png'); ?>"></a>
         <div class="bx bx-menu" id="menu-icon"></div>
         <ul class="navbar">
-            <li><a href="https://api.whatsapp.com/send/?phone=62895337261274&text=Halo+eresta, +bisakah+kamu+membantu+saya.+&type=phone_number&app_absent=0">Contact Me</a></li>
-            <li><a href="#" id="myBtn"> Get Started</a></li>
+            <li><a href="#">Masuk</a></li>
+            <li><a href="#"> Daftar</a></li>
             <hr>
             <li><a href="<?= base_url('/'); ?>"><i class='bx bxs-home'></i> Home</a></li>
             <li><a href="#project"><i class='bx bxl-product-hunt'></i> Project</a></li>

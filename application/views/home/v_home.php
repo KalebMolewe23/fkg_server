@@ -28,8 +28,7 @@
             </div>
         </div>
     </div>
-</section> 
-<br>
+</section>
 
 <div class="box2">
     <div></div>
@@ -41,6 +40,8 @@
     <div></div>
     <div></div>
 </div>
+<br>
+
 <section class="home container">
     <div class="paket" id="prices">
         <center><h3 class="h3_size_price">Paket Pembuatan Website</h3></center>
@@ -114,9 +115,7 @@
         <a href="">Aplikasi</a>
     </div>
 </section>
- <!-- <button class="projek_link"><a href="">All</a>
- <button class="projek_link"><a href="">Website</a>
- <button class="projek_link"><a href="">Application</a> -->
+
 <section class="home container">
         <div class="row_p2" id="all">
             <div class="column_p2">

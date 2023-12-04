@@ -301,10 +301,7 @@ section {
 }
 
 .container{
-    max-width: 1068px;
-    margin-left: auto;
-    margin-top: -79px;
-    margin-right: 400px;
+    width: 100%;
 }
 
 .column_service {
@@ -316,7 +313,7 @@ section {
 }
 
 .row_service {
-    margin: 0 -32px;
+    margin: 0 20%;
 }
 
 .card_service{
@@ -423,19 +420,19 @@ h3{
 
 .paket{
     position: relative;
-    margin-top: -790px;
+    margin-top: -890px;
 }
 
 .column_paket {
     float: left;
     width: 34%;
-    padding: 0 10px 30px;
+    padding: 0 17px 30px;
     margin: -6px;
     text-align: left;
 }
 
 .row_paket {
-    margin: 0 -52px;
+    margin: 0 350px;
 }
 
 .h3_size_price{
@@ -525,23 +522,23 @@ h3{
 }
 
 .projek{
-    margin-top: 100px;
+    margin-top: -100px;
 }
 
 .projek_link{
-    margin-left: 400px;
+    margin-left: 816px;
 }
 
 .column_p2 {
     float: left;
     width: 34%;
-    padding: 0 98px 13px;
+    padding: 0 98px 171px;
     margin: -25px;
     text-align: left;
 }
 
 .row_p2 {
-    margin: 0 -52px;
+    margin: 0 332px;
 }
 
 .card_p2{
@@ -552,7 +549,7 @@ h3{
     border-radius: 10px;
     height: 180px;
     width: 300px;
-    margin-top: 100px;
+    margin-top: -100px;
 }
 
 .h5_price{
@@ -587,7 +584,7 @@ h3{
 }
 
 .portofolio{
-    margin-top: 700px;
+    margin-top: 250px;
 }
 
 .Carousel-slider {
@@ -874,7 +871,7 @@ footer{
     }
 
     .h3_size{
-        margin-left: 200px;
+        margin-left: 0px;
     }
 
     .box2{
