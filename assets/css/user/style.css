@@ -938,4 +938,68 @@ footer{
     .row_service {
         margin: 0 7%;
     }
+
+    .box2{
+        margin-top: 1000px;
+        height: 2000px;
+    }
+
+    .paket{
+        position: relative;
+        margin-top: -2070px;
+    }
+
+    .h3_size_price{
+        margin-left: -10px;
+        font-size: 25px;
+    }
+
+    .p_size_price{
+        margin-left: -10px;
+        font-size: 10px;
+    }
+
+    .column_paket {
+        float: left;
+        width: 70%;
+        padding: 0 17px 58px;
+        margin: -22px;
+        text-align: left;
+    }
+    
+    .row_paket {
+        margin: 0 26px;
+    }
+
+    .box2 div:nth-child(1){
+        display: none;
+    }
+    
+    .box2 div:nth-child(2){
+        display: none;
+    }
+    
+    .box2 div:nth-child(3){
+        display: none;
+    }
+    
+    .box2 div:nth-child(4){
+        display: none;
+    }
+    
+    .box2 div:nth-child(5){
+        display: none;
+    }
+    
+    .box2 div:nth-child(6){
+        display: none;
+    }
+    
+    .box2 div:nth-child(7){
+        display: none;
+    }
+    
+    .box2 div:nth-child(8){
+        display: none;
+    }
 }
