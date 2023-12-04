@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Eresta Developer</title>
     <link rel="stylesheet" href="<?= base_url('/assets/css/user/style.css') ?>">
     <link rel="icon" type="image/x-icon" href="<?= base_url('/assets/logo/icon.png'); ?>">
@@ -41,6 +41,7 @@
     </style>
 </head>
 <body>
+    <div class="container">
     <header>
         <a href="/" class="logo"><img src="<?= base_url('/assets/logo/eresta_dev.png'); ?>"></a>
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -106,4 +107,5 @@
         <div></div>
         <!-- <div></div> -->
         <!-- <div></div> -->
+    </div>
     </div>
