@@ -18,7 +18,7 @@
         .box1{
             width: 1885px;
             margin-top: 150px;
-            margin-left: 30px;
+            margin-left: 20px;
             height:370px;
             background: url(<?= base_url("/assets/logo/banner2.jpg") ?>);
             box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -34,7 +34,7 @@
 
         @media only screen and (max-width: 400px) {
         .box1{
-            width: 390.5px;
+            width: 391px;
             margin-left: 0px;
         }
 }
