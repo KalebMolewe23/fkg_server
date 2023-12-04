@@ -627,7 +627,7 @@ h3{
 
 .indicators {
 	top: 0;
-    left: 50%;
+    left: 50.5%;
     padding: 0;
     list-style-type: none;
     margin: 40px 0 0 -54px;
@@ -1015,7 +1015,7 @@ footer{
     .column_p2 {
         float: left;
         width: 70%;
-        padding: 0 98px 198px;
+        padding: 0 89px 198px;
         margin: -39px;
         text-align: left;
     }
@@ -1023,4 +1023,10 @@ footer{
     .row_p2 {
         margin: 0 0px;
     }
+
+    .portofolio{
+        margin-top: 1100px;
+    }
+
+    
 }

@@ -162,3 +162,25 @@
 
         </div>
 </section>
+
+<section class="home container">
+    <div class="portofolio" id="portofolio">
+        <center><h3 class="h3_size">Testimonial</h3></center>
+        <center><p class="p_size">Berikut Adalah Testimoni Langsung Dari Client Yang Sudah Bekerja Sama Dengan Kami.</p></center><br><br>
+        <div class="Carousel-slider">
+			<!-- Background Images div -->
+			<div class="slider-item portofolio1" data-href="#" ></div>
+			<div class="slider-item portofolio2" data-href="#" ></div>
+			<div class="slider-item portofolio3" data-href="#" ></div>
+			<!-- <div class="slider-item portofolio4" data-href="#" ></div>
+			<div class="slider-item portofolio5" data-href="#" ></div>
+			<div class="slider-item portofolio6" data-href="#" ></div>
+			<div class="slider-item portofolio7" data-href="#" ></div> -->
+			<!-- Background Images div End -->
+		</div>
+        <!-- <div class="portofolio_des">
+            <img src="<?= base_url('assets/customer/img/bonny2.jpg'); ?>"></img>
+            <h3>Bonny - Monokwari, Papua Barat(Algoritma K-Means + WebGis)</h3>
+        </div> -->
+    </div>
+</section>
