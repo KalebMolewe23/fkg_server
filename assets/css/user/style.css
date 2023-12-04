@@ -823,3 +823,31 @@ footer{
         right: 1%;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .logo img{
+        width: 150px;
+    }
+    #menu-icon{
+        font-size: 30px;
+    }
+    .navbar{
+        top: 21%;
+        right: -120%;
+    }
+    .navbar a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        font-size: 15px;
+        color: white;
+        transition: all .50s ease;
+        text-decoration: none;
+    }
+    .modal{
+        padding-top: 50%;
+    }
+    .modal-content{
+        width: 90%;
+    }
+}

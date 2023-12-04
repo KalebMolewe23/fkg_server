@@ -46,8 +46,8 @@
         <a href="/" class="logo"><img src="<?= base_url('/assets/logo/eresta_dev.png'); ?>"></a>
         <div class="bx bx-menu" id="menu-icon"></div>
         <ul class="navbar">
-            <li><a href="#">Masuk</a></li>
-            <li><a href="#"> Daftar</a></li>
+            <li><a href="https://api.whatsapp.com/send/?phone=62895337261274&text=Halo+eresta, +bisakah+kamu+membantu+saya.+&type=phone_number&app_absent=0"> Contact Me</a></li>
+            <li><a href="#" id="myBtn"> Get Started</a></li>
             <hr>
             <li><a href="<?= base_url('/'); ?>"><i class='bx bxs-home'></i> Home</a></li>
             <li><a href="#project"><i class='bx bxl-product-hunt'></i> Project</a></li>
