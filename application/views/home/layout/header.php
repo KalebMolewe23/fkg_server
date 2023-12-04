@@ -34,7 +34,7 @@
 
         @media only screen and (max-width: 400px) {
         .box1{
-            width: 390px;
+            width: 390.5px;
             margin-left: 0px;
         }
 }
