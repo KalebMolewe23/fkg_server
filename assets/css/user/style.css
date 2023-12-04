@@ -1028,5 +1028,18 @@ footer{
         margin-top: 1100px;
     }
 
+    .indicators{
+        left: 55%;
+    }
+
+    .container_footer{
+        max-width: 720px;
+    }
+
+    .wrapper .footer-widget,
+    .wrapper .footer-widget:nth-child(1){
+        width: 100%;
+        margin: 0 10px 50px;
+    }
     
 }

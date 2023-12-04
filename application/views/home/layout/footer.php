@@ -1,4 +1,4 @@
-<!-- <footer>
+<footer>
     <div class="container_footer">
         <div class="wrapper">
             <div class="footer-widget">
@@ -54,7 +54,7 @@
             </p>
         </div>
     </div>
-</footer> -->
+</footer>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
