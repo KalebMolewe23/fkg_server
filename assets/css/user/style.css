@@ -785,7 +785,7 @@ footer{
     #menu-icon{
         display: flex;
         font-size: 45px;
-        color: var(--secondary);
+        color: #5d4bff;
         margin-left: 18px;
     }
 
