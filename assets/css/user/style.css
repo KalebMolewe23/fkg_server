@@ -527,7 +527,7 @@ h3{
 }
 
 .projek_link{
-    margin-left: 816px;
+    margin-left: 830px;
 }
 
 .column_p2 {
@@ -539,7 +539,7 @@ h3{
 }
 
 .row_p2 {
-    margin: 0 332px;
+    margin: 0 360px;
 }
 
 .card_p2{
@@ -1001,5 +1001,26 @@ footer{
     
     .box2 div:nth-child(8){
         display: none;
+    }
+
+    .projek_link{
+        margin-left: 92px;
+    }
+
+    .p_size{
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    .column_p2 {
+        float: left;
+        width: 70%;
+        padding: 0 98px 198px;
+        margin: -39px;
+        text-align: left;
+    }
+    
+    .row_p2 {
+        margin: 0 0px;
     }
 }

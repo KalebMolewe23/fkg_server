@@ -103,3 +103,62 @@
         </div>
     </div>
 </section>
+
+<section class="home container">
+    <div class="projek" id="project">
+        <center><h3 class="h3_size">Our Projects</h3></center>
+        <center><p class="p_size">Berikut Adalah Projek Yang Sudah Kami Buat Dan Kami Jual.</p></center><br><br><br>
+    </div>
+    <div class="projek_link">
+        <a href="">Semua</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Website</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Aplikasi</a>
+    </div>
+</section>
+
+<section class="home container">
+        <div class="row_p2" id="all">
+            <div class="column_p2">
+                <div class="card_p2">
+                    <button type="submit" class="button_link"><i class='bx bx-link-alt'></i> Link Demo</button><br>
+                    <h3 class="h3_title">Algoritma K-Means + WebGis</h3>
+                    <h5 class="h5_price">Rp. 1.000.000</h5><br>
+                    <p class="p_projek"><i class='bx bx-check' ></i>Source Code</p>
+                    <p class="p_projek"><i class='bx bx-check' ></i>Penambahan Fitur : 100ribu/fitur</p>
+                    <p class="p_projek"><i class='bx bx-check' ></i>Full Custome</p>
+                    <p class="p_projek"><i class='bx bx-x'></i>Hosting + Domain</p>
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+            <div class="column_p2">
+                <div class="card_p2">
+
+                </div>
+            </div>
+        </div>
+        <div class="row_p2" id="website">
+
+        </div>
+        <div class="row_p2" id="application">
+
+        </div>
+</section>
