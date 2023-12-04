@@ -808,21 +808,271 @@ footer{
         display: block;
         margin: 12px 0;
         padding: 0px 25px;
-        font-size: 28px;
+        font-size: 20px;
         color: white;
         transition: all .50s ease;
         text-decoration: none;
     }
+
     .navbar a:hover{
         color: rgb(224, 175, 68);
         transform: translateY(5px);
     }
+
     .navbar a.active{
         color: var(--white);
     }
+
     .navbar.open{
         right: 1%;
     }
+
+    .column_service {
+        float: left;
+        width: 34%;
+        padding: 0 10px 30px;
+        margin: -6px;
+        text-align: left;
+    }
+    
+    .row_service {
+        margin: 0 15%;
+    }
+
+    .column_paket {
+        float: left;
+        width: 34%;
+        padding: 0 17px 30px;
+        margin: -6px;
+        text-align: left;
+    }
+    
+    .row_paket {
+        margin: 0 153px;
+    }
+
+    .projek_link{
+        margin-left: 637px;
+    }
+
+    .column_p2 {
+        float: left;
+        width: 34%;
+        padding: 0 98px 171px;
+        margin: -25px;
+        text-align: left;
+    }
+    
+    .row_p2 {
+        margin: 0 177px;
+    }
+
+    .row_paket {
+        margin: 0 35px;
+    }
+
+    .projek_link{
+        margin-left: 519px;
+    }
+
+    .row_p2 {
+        margin: 0 58px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .row_service {
+        margin: 0 8%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar{
+        top: 14%;
+    }
+
+    .navbar a{
+        font-size: 18px;
+    }
+
+    .modal-content{
+        width: 50%;
+    }
+
+    .box1 h3{
+        position: relative;
+        font-size: 20px;
+        padding-top: 90px;
+        color: var(--primary);
+    }
+    .box1 p{
+        margin-left: -20px;
+        font-size: 12px;
+        position: relative;
+        color: var(--primary);
+    }
+
+    .column_service {
+        float: left;
+        width: 34%;
+        padding: 0 32px 30px;
+        margin: -6px;
+        text-align: left;
+    }
+
+    .row_service {
+        margin: 0 2%;
+    }
+
+    .box2{
+        height: 1800px;
+    }
+
+    .paket{
+        margin-top: -1800px;
+    }
+
+    .p_size{
+        font-size: 13px;
+        margin-left: 0px;
+    }
+
+    .projek_link{
+        margin-left: 413px;
+    }
+
+    .h3_size{
+        margin-left: 17px;
+    }
+
+    .h3_size_price{
+        margin-left: 0px;
+    }
+
+    .p_size_price{
+        font-size: 13px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .card_service{
+        width: 300px;
+    }
+
+    .card_service p{
+        font-size: 12px;
+    }
+
+    .column_paket {
+        float: left;
+        width: 34%;
+        padding: 0 17px 30px;
+        margin: 62px;
+        text-align: left;
+    }
+    
+    .row_paket {
+        margin: 0 29px;
+    }
+
+    .column_p2 {
+        float: left;
+        width: 36%;
+        padding: 0 77px 171px;
+        margin: -25px;
+        text-align: left;
+    }
+    
+    .row_p2 {
+        margin: 0 0px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .navbar{
+        top: 12.7%;
+    }
+
+    .navbar a{
+        font-size: 20px;
+    }
+
+    .h3_size{
+        margin-left: 50px;
+    }
+
+    .column_service {
+        float: left;
+        width: 30%;
+        padding: 0 3px 0px;
+        margin: 59px;
+        text-align: left;
+    }
+
+    .row_service {
+        margin: 0 2%;
+    }
+
+    .box2{
+        width: 770px;
+        margin-top: 800px;
+        height: 2400px;
+    }
+
+    .paket{
+        margin-top: -2470px;
+    }
+
+    .column_paket {
+        float: left;
+        width: 34%;
+        padding: 0 102px 30px;
+        margin: 62px;
+        text-align: left;
+    }
+    
+    .row_paket {
+        margin: 0 29px;
+    }
+
+    .projek{
+        margin-top: -202px;
+    }
+
+    .projek_link{
+        margin-left: 272px;
+    }
+
+    .column_p2 {
+        float: left;
+        width: 36%;
+        padding: 0 46px 61px;
+        margin: 32px;
+        text-align: left;
+    }
+
+    .Carousel-slider {
+        margin-left: 30px;
+    }
+
+    .indicators {
+        top: 0;
+        left: 50.7%;
+        padding: 0;
+        list-style-type: none;
+        margin: 40px 0 0 -54px;
+        position: absolute;
+    }
+
+    footer{
+        position: relative;
+        width: 107%;
+        height: auto;
+        padding-top: 80px;
+        background-color: var(--third);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
 }
 
 @media only screen and (max-width: 400px) {

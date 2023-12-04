@@ -32,12 +32,40 @@
         .portofolio6 {background: url(img/portofolio6.jpg); border-radius: 50px !important;}
         .portofolio7 {background: url(img/portofolio7.jpg); border-radius: 50px !important;} */
 
-        @media only screen and (max-width: 400px) {
-        .box1{
-            width: 392px;
-            margin-left: 0px;
+        @media only screen and (max-width: 1518px) {
+            .box1{
+                width: 1500px;
+                margin-left: 10px;
+            }
         }
-}
+
+        @media only screen and (max-width: 1280px) {
+            .box1{
+                width: 1259px;
+                margin-left: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .box1{
+                width: 1005px;
+                margin-left: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 720px) {
+            .box1{
+                width: 750px;
+                margin-left: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .box1{
+                width: 392px;
+                margin-left: 0px;
+            }
+        }
     </style>
 </head>
 <body>
