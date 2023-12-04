@@ -921,4 +921,20 @@ footer{
         left: 60%;
         animation: animate 16s linear infinite;
     }
+
+    .h3_size{
+        margin-left: 10px;
+    }
+
+    .column_service {
+        float: left;
+        width: 70%;
+        padding: 0 10px 30px;
+        margin: -6px;
+        text-align: left;
+    }
+    
+    .row_service {
+        margin: 0 8%;
+    }
 }
