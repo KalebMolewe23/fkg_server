@@ -313,7 +313,7 @@ section {
 }
 
 .row_service {
-    margin: 0 20%;
+    margin: 0 22%;
 }
 
 .card_service{
@@ -441,6 +441,7 @@ h3{
 }
 
 .h3_size{
+    margin-left: -20px;
     font-size: 30px;
 }
 
@@ -935,6 +936,6 @@ footer{
     }
     
     .row_service {
-        margin: 0 8%;
+        margin: 0 7%;
     }
 }

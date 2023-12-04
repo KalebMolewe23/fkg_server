@@ -18,7 +18,7 @@
         .box1{
             width: 1885px;
             margin-top: 150px;
-            margin-left: 19.5px;
+            margin-left: 9.5px;
             height:370px;
             background: url(<?= base_url("/assets/logo/banner2.jpg") ?>);
             box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
