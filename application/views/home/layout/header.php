@@ -32,9 +32,9 @@
         .portofolio6 {background: url(img/portofolio6.jpg); border-radius: 50px !important;}
         .portofolio7 {background: url(img/portofolio7.jpg); border-radius: 50px !important;} */
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 400px) {
         .box1{
-            width: 999px;
+            width: 400px;
             margin-left: 0px;
         }
 }
