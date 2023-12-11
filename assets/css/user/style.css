@@ -144,6 +144,10 @@ h6,
         border-top: 1px solid #DDDDDD;
     }
 
+    .navbar-light .navbar-collapse button{
+        border-radius: 10px;
+    }
+
     .navbar-light .navbar-nav .nav-link,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;

@@ -14,9 +14,29 @@
                         <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Services</a>
                         <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Projects</a>
                     </div>
-                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Registrasi Now</a>
+                    <button id="myBtn">Open Modal</button>
                 </div>
             </nav>
+
+            <!-- Tampilan modal registrasi -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+            </div>
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+            </div>
+
+            </div>
 
             <div class="container-xxl bg-primary hero-header">
                 <div class="container px-lg-5">
