@@ -51,12 +51,14 @@
             </div>
         </div>
         <!-- Footer End -->
-
-
+        
+        
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
-
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url('/assets/lib/wow/wow.min.js') ?>"></script>
@@ -71,31 +73,61 @@
     <script src="<?= base_url('assets/js/user/main.js') ?>"></script>
 
     <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
-
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
-
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-
-            // When the user clicks the button, open the modal 
-            btn.onclick = function() {
-            modal.style.display = "block";
+        document.addEventListener('DOMContentLoaded', () => {
+  
+        //------ Slider Begin
+            const CaroS = document.querySelector('.Carousel-slider');
+            const CaroSlider = new MicroSlider(CaroS, { indicators: true, indicatorText: '' });
+            const hammer = new Hammer(CaroS);
+            const CaroSTimer = 2000;
+            let CaroAutoplay = setInterval(() => CaroSlider.next(), CaroSTimer);
+            
+        //------- Mouseenter Event
+            CaroS.onmouseenter = function(e) {
+                clearInterval(CaroAutoplay); 
+                console.log(e.type + ' mouse detected');
             }
-
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() {
-            modal.style.display = "none";
+        
+        //----- Mouseleave Event
+            CaroS.onmouseleave = function(e) {
+                clearInterval(CaroAutoplay); 
+                CaroAutoplay = setInterval(() => CaroSlider.next(), CaroSTimer);
+                console.log(e.type + ' mouse detected');
             }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
+        
+        //----- Mouseclick Event
+            CaroS.onclick = function(e) {
+                clearInterval(CaroAutoplay); 
+                console.log(e.type + ' mouse detected');
             }
+        
+        //------ Gesture Tap Event
+            hammer.on('tap', function(e) {
+                clearInterval(CaroAutoplay);
+                console.log(e.type + ' gesture detected');
+            });
+        
+        //----- Gesture Swipe Event
+            hammer.on('swipe', function(e) {
+                clearInterval(CaroAutoplay); 
+                CaroAutoplay = setInterval(() => CaroSlider.next(), CaroSTimer);
+                console.log(e.type + ' gesture detected');
+            });
+
+        let slideLink = document.querySelectorAll('.slider-item');
+        if (slideLink && slideLink !== null && slideLink.length > 0){
+            slideLink.forEach( el => el.addEventListener('click', e => {
+            e.preventDefault();
+            let href = el.dataset.href;
+            let target = el.dataset.target;
+            if (href !== '#') window.open(href, target);
+            }));
         }
+        
+        //---- Slider End
+        
+        });
+
 </script>
 
 </body>

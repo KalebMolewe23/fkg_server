@@ -14,7 +14,7 @@
                         <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Services</a>
                         <a href="<?= base_url('home/project') ?>" class="nav-item nav-link">Projects</a>
                     </div>
-                    <button id="myBtn">Open Modal</button>
+                    <!-- <button id="myBtn">Open Modal</button> -->
                 </div>
             </nav>
 
@@ -198,7 +198,7 @@
                                 <img class="img-fluid w-100" src="<?= base_url('assets/image/example/img/vaksinasi.png') ?>" alt="">
                                 <div class="portfolio-overlay">
                                     <a class="btn btn-square btn-outline-light mx-1" href="<?= base_url('assets/image/example/img/vaksinasi.png') ?>" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href="https://youtu.be/UzPXkglehVs?si=Z7i2FfHS1rf-xWB1"><i class="fa fa-link"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="https://www.youtube.com/watch?v=cToIRGclvc8"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="bg-light p-4">
@@ -218,7 +218,22 @@
             <div class="container py-5 px-lg-5">
                 <p class="section-title text-secondary justify-content-center"><span></span>Testimonial<span></span></p>
                 <h1 class="text-center mb-5">What Say Our Clients!</h1>
-                <div class="owl-carousel testimonial-carousel">
+                <div id="Carousel-slider">
+                    <section>
+                        <div class="Carousel-slider">
+                            <!-- Background Images div -->
+                            <div class="slider-item client1" data-href="#" ></div>
+                            <div class="slider-item client2" data-href="#" ></div>
+                            <div class="slider-item client3" data-href="#" ></div>
+                            <!-- <div class="slider-item client4" data-href="#" ></div>
+                            <div class="slider-item client5" data-href="#" ></div>
+                            <div class="slider-item client6" data-href="#" ></div>
+                            <div class="slider-item client7" data-href="#" ></div> -->
+                            <!-- Background Images div End -->
+                        </div>
+                    </section>
+                </div>
+                <!-- <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-light rounded my-4">
                         <img src="<?= base_url('assets/customer/img/bonny2.jpg'); ?>">
                         <div class="d-flex align-items-center">
@@ -246,7 +261,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Testimonial End -->

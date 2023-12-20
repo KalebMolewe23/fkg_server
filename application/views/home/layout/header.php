@@ -31,7 +31,18 @@
     <!-- Template Stylesheet -->
     <link href="<?= base_url('/assets/css/user/style.css') ?>" rel="stylesheet">
 
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="30520e0b-941c-413b-b445-6a9e3bf72c58";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
     <style>
+
+        .client1 {background-image: url(<?= base_url('assets/customer/img/bonny2.jpg'); ?>); border-radius: 50px !important;}
+        .client2 {background: url(<?= base_url('assets/customer/img/hidayah2.jpg'); ?>); border-radius: 50px !important;}
+        .client3 {background: url(<?= base_url('assets/customer/img/lukas2.jpg'); ?>); border-radius: 50px !important;}
+        /* .portofolio4 {background: url(img/portofolio4.jpg); border-radius: 50px !important;}
+        .portofolio5 {background: url(img/portofolio5.jpg); border-radius: 50px !important;}
+        .portofolio6 {background: url(img/portofolio6.jpg); border-radius: 50px !important;}
+        .portofolio7 {background: url(img/portofolio7.jpg); border-radius: 50px !important;} */
+
         /* The Modal (background) */
         .modal {
             display: none; /* Hidden by default */
