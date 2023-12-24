@@ -29,7 +29,7 @@
 			<center>
 				<strong>Quest Client</strong>
 				<div class="image-quest100">
-					<img src="<?= base_url('assets/programmer/quest.png'); ?>" style="width:763px;margin-left:-50px;margin-top:-100px">
+					<img class="img-client" src="<?= base_url('assets/programmer/quest.png'); ?>">
 					<div class="image-text">
 						<table class="table">
 							<thead class="thead-dark">
