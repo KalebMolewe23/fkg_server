@@ -295,7 +295,7 @@
                             <div class="text-center border-bottom p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="<?= base_url('assets/member/kaleb.jpg'); ?>" alt="">
                                 <h5>Kaleb Molewe S.Kom</h5>
-                                <span>CEO & Founder</span>
+                                <span>CEO, Programmer & Founder</span>
                             </div>
                             <div class="d-flex justify-content-center p-4">
                                 <a class="btn btn-square mx-1" href="https://web.facebook.com/profile.php?id=100085414869298"><i class="fab fa-facebook-f"></i></a>
