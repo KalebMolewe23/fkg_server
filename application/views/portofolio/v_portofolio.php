@@ -167,7 +167,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="<?= ('assets/portofolio/img/pt1.png') ?>" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="<?= ('assets/portofolio/img/pt2.png') ?>" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Deskripsi Program : Framework Laravel 9 + Flutter dan PHP 8</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
