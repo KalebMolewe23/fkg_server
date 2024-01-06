@@ -396,7 +396,7 @@
 
         <div class="home-content">
             <i class='bx bx-menu'></i>
-            <span class="text"><i class='bx bxs-home'></i> Data Malaria</span>
+            <span class="text"><i class='bx bxs-home'></i> Dahsboard</span>
         </div>
         <main>
 
